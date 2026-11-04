@@ -1,0 +1,12 @@
+{
+  "name": "star-forest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Star Forest - primeiro teste cinematográfico 3D (Voxel 2.5D)",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts StarForest out/starforest.mp4 --gl=angle",
+    "frame": "remotion still src/index.ts StarForest out/frame-150.png --frame=150 --gl=angle",
+    "check": "tsc --noEmit"
+  }
+}
